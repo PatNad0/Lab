@@ -73,7 +73,7 @@ p {
   font-size: 1.5em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
   .boxContainer {
     display: flex;
     flex-direction: row;
@@ -119,8 +119,8 @@ p {
     font-size: 0.9em;
   }
   .box img {
-    max-width: 50%;
-    max-height: 250px;
+    width: 50%;
+    height: 250px;
     order: 2;
   }
   p {
